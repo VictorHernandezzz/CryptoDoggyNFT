@@ -85,4 +85,33 @@ body{
     margin: auto;
     z-index: 1;
     overflow: hidden;
-}		
+}
+.head{
+    width: 170px;
+    height: 120px;
+    background: #fee7af;
+    border-radius: 70px 70px 0 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 55px;
+    margin: auto;
+    overflow: hidden;
+}
+/*patch*/
+.dog:after, .head:after{
+    content: '';
+    width: 110px;
+    height: 130px;
+    border-radius: 50%;
+    background: #fecf94;
+    position: absolute;
+}
+.dog:after{
+    left: 0;
+    bottom: 55px;
+}
+.head:after{
+    left: -25px;
+    bottom: -30px;
+}
