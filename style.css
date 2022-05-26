@@ -215,3 +215,44 @@ body{
     right: 0;
     margin: auto;
 }
+.ear{
+    position: absolute;
+    background: #89766c;
+    z-index: 1;
+}
+.ear:before,
+.ear:after{
+    content: '';
+    position: inherit;
+    background: inherit;
+}
+.ear,
+.ear:before,
+.ear:after{
+    width: 50px;
+    height: 50px;
+    border-top-right-radius: 30%;
+}
+.ear{
+    transform: rotate(-60deg) skewX(-30deg) scale(1, .866);
+}
+.ear:before{
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
+}
+.ear:after{
+    transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+.ear-left{
+    position: absolute;
+    left: 104px;
+    top: 56px;
+    transform: rotate(30deg);
+    z-index: 1;
+}
+.ear-right{
+    position: absolute;
+    right: 150px;
+    top: 80px;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
