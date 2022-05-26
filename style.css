@@ -73,3 +73,16 @@ body{
     bottom: -410px;
     transform: scale(.8);
 }
+.dog{
+    width: 220px;
+    height: 90px;
+    background: #fee7af;
+    border-radius: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    margin: auto;
+    z-index: 1;
+    overflow: hidden;
+}		
