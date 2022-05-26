@@ -17,3 +17,59 @@ body{
     margin: auto;
     border: 1px solid white;
 }
+.bubble{
+    width: 360px;
+    height: 360px;
+    background: #a9bffb;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.bubble:before, .bubble:after{
+    content: '';
+    width: 120px;
+    height: 120px;
+    background: inherit;
+    border-radius: inherit;			
+    position: inherit;
+}
+.bubble:before{
+    right: -40px;
+    top: 20px;
+}
+.bubble:after{
+    bottom: -30px;
+    left: 40px;
+    transform: scale(1.4);
+}
+.bubbles{
+    width: 40px;
+    height: 40px;
+    background: #a9bffb;
+    border-radius: 50%;
+    position: absolute;
+    right: 170px;
+    top: 80px;
+}
+.bubbles:before, .bubbles:after{
+    content: '';
+    width: inherit;
+    height: inherit;
+    background: inherit;
+    border-radius: inherit;
+    position: inherit;
+}
+.bubbles:before{
+    left: -330px;
+    bottom: -320px;
+    transform: scale(1.5);
+}
+.bubbles:after{
+    left: -85px;
+    bottom: -410px;
+    transform: scale(.8);
+}
