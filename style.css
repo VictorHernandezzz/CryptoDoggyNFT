@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #9eb5f6;
+    background-color: transparent;
 }
 .container{
     width: 600px;
@@ -15,12 +15,13 @@ body{
     right: 0;
     bottom: 0;
     margin: auto;
+    background: #fda47bd9;
     border: 1px solid white;
 }
 .bubble{
     width: 360px;
     height: 360px;
-    background: #a9bffb;
+    background: #0084ffa8;
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -49,7 +50,7 @@ body{
 .bubbles{
     width: 40px;
     height: 40px;
-    background: #a9bffb;
+    background: #0084ffa8;
     border-radius: 50%;
     position: absolute;
     right: 170px;
@@ -76,7 +77,7 @@ body{
 .dog{
     width: 220px;
     height: 90px;
-    background: #fee7af;
+    background: #fcefcd;
     border-radius: 60px;
     position: absolute;
     left: 0;
@@ -89,7 +90,7 @@ body{
 .head{
     width: 170px;
     height: 120px;
-    background: #fee7af;
+    background: #fcefcd;
     border-radius: 70px 70px 0 0;
     position: absolute;
     left: 0;
@@ -104,7 +105,7 @@ body{
     width: 110px;
     height: 130px;
     border-radius: 50%;
-    background: #fecf94;
+    background: #fcefcd;
     position: absolute;
 }
 .dog:after{
@@ -118,13 +119,13 @@ body{
 .eyes{
     width: 16px;
     height: 16px;
-    background: #89766c;
+    background: #0084ffa8;
     border-radius: 50%;
     position: absolute;
     left: 140px;
     bottom: 175px;
     z-index: 1;
-    box-shadow: 65px 0 #89766c;
+    box-shadow: 65px 0 #0084ffa8;
     animation: blink 3s infinite linear;
 }
 @keyframes blink{
@@ -162,7 +163,7 @@ body{
 .mouth{
     width: 50px;
     height: 25px;
-    background: #fee7af;
+    background: #9a7b6a;
     border: 5px solid #9a7b6a;
     border-top: 0;
     border-bottom-left-radius: 30px;
