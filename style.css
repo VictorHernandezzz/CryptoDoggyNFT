@@ -3,4 +3,17 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    
+}
+.eyes {
+    position: relative;
+    display: flex;
+    top: 30px;
+}
+.eye {
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    margin: 20px;
 }
