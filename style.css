@@ -1,16 +1,19 @@
-#body {
+.cat{
+    margin: 15px;
+}
+#body{
     background-color: rgb(160 255 164);
     width: 200px;
     height: 200px;
     border-radius: 50%;
     
 }
-.eyes {
+.eyes{
     position: relative;
     display: flex;
     top: 30px;
 }
-.eye {
+.eye{
     position: relative;
     background-color: white;
     border-radius: 50%;
@@ -18,7 +21,7 @@
     height: 80px;
     margin: 18px;
 }
-.pupils {
+.pupils{
     position: absolute;
     background-color: black;
     border-radius: 50%;
@@ -26,4 +29,20 @@
     height: 65px;
     top: 15px;
     left: 4px;
+}
+.ears{
+    position: relative;
+}
+.ear{
+    position: absolute;
+    border-radius: 90% 10% 90% 10%;
+    background-color: rgb(160 255 164);
+    height: 100px;
+    width: 100px;
+}
+.left_ear{
+
+}
+.right_ear{
+    left: 100px;
 }
