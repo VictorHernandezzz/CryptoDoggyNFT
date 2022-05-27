@@ -6,7 +6,7 @@
 body{
     background-color: transparent;
 }
-.container{
+.doggy-container{
     width: 600px;
     height: 600px;
     position: absolute;
@@ -181,16 +181,16 @@ body{
     position: inherit;
     top: -2.5px;
 }
-.mouth.left{
+.mouth-left{
     left: 132.5px;
 }
-.mouth.right{
+.mouth-right{
     right: 132.5px;
 }
-.left.mouth:before{
+.mouth-left:before{
     left: -5px;
 }
-.right.mouth:before{
+.mouth-right:before{
     right: -5px;
 }
 .tongue{
